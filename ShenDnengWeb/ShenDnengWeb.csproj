@@ -43,6 +43,34 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -170,6 +198,95 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="bootstarp\assets\brand\bootstrap-outline.svg" />
+    <Content Include="bootstarp\assets\brand\bootstrap-punchout.svg" />
+    <Content Include="bootstarp\assets\brand\bootstrap-social-logo.png" />
+    <Content Include="bootstarp\assets\brand\bootstrap-social.png" />
+    <Content Include="bootstarp\assets\brand\bootstrap-solid.svg" />
+    <Content Include="bootstarp\assets\css\docs.min.css" />
+    <Content Include="bootstarp\assets\img\bootstrap-stack.png" />
+    <Content Include="bootstarp\assets\img\bootstrap-themes.png" />
+    <Content Include="bootstarp\assets\img\favicons\android-chrome-192x192.png" />
+    <Content Include="bootstarp\assets\img\favicons\android-chrome-512x512.png" />
+    <Content Include="bootstarp\assets\img\favicons\apple-touch-icon.png" />
+    <Content Include="bootstarp\assets\img\favicons\browserconfig.xml" />
+    <Content Include="bootstarp\assets\img\favicons\favicon-16x16.png" />
+    <Content Include="bootstarp\assets\img\favicons\favicon-32x32.png" />
+    <Content Include="bootstarp\assets\img\favicons\mstile-144x144.png" />
+    <Content Include="bootstarp\assets\img\favicons\mstile-150x150.png" />
+    <Content Include="bootstarp\assets\img\favicons\mstile-310x150.png" />
+    <Content Include="bootstarp\assets\img\favicons\mstile-310x310.png" />
+    <Content Include="bootstarp\assets\img\favicons\mstile-70x70.png" />
+    <Content Include="bootstarp\assets\img\favicons\safari-pinned-tab.svg" />
+    <Content Include="bootstarp\assets\js\docs.min.js" />
+    <Content Include="bootstarp\assets\js\src\application.js" />
+    <Content Include="bootstarp\assets\js\src\ie-emulation-modes-warning.js" />
+    <Content Include="bootstarp\assets\js\src\pwa.js" />
+    <Content Include="bootstarp\assets\js\vendor\anchor.min.js" />
+    <Content Include="bootstarp\assets\js\vendor\clipboard.min.js" />
+    <Content Include="bootstarp\assets\js\vendor\holder.min.js" />
+    <Content Include="bootstarp\assets\js\vendor\jquery-slim.min.js" />
+    <Content Include="bootstarp\assets\js\vendor\popper.min.js" />
+    <Content Include="bootstarp\dist\css\bootstrap-grid.css" />
+    <Content Include="bootstarp\dist\css\bootstrap-grid.min.css" />
+    <Content Include="bootstarp\dist\css\bootstrap-reboot.css" />
+    <Content Include="bootstarp\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="bootstarp\dist\css\bootstrap.css" />
+    <Content Include="bootstarp\dist\css\bootstrap.min.css" />
+    <Content Include="bootstarp\dist\js\bootstrap.bundle.js" />
+    <Content Include="bootstarp\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="bootstarp\dist\js\bootstrap.js" />
+    <Content Include="bootstarp\dist\js\bootstrap.min.js" />
+    <Content Include="bootstarp\js\dist\alert.js" />
+    <Content Include="bootstarp\js\dist\button.js" />
+    <Content Include="bootstarp\js\dist\carousel.js" />
+    <Content Include="bootstarp\js\dist\collapse.js" />
+    <Content Include="bootstarp\js\dist\dropdown.js" />
+    <Content Include="bootstarp\js\dist\index.js" />
+    <Content Include="bootstarp\js\dist\modal.js" />
+    <Content Include="bootstarp\js\dist\popover.js" />
+    <Content Include="bootstarp\js\dist\scrollspy.js" />
+    <Content Include="bootstarp\js\dist\tab.js" />
+    <Content Include="bootstarp\js\dist\tooltip.js" />
+    <Content Include="bootstarp\js\dist\util.js" />
+    <Content Include="bootstarp\js\src\alert.js" />
+    <Content Include="bootstarp\js\src\button.js" />
+    <Content Include="bootstarp\js\src\carousel.js" />
+    <Content Include="bootstarp\js\src\collapse.js" />
+    <Content Include="bootstarp\js\src\dropdown.js" />
+    <Content Include="bootstarp\js\src\index.js" />
+    <Content Include="bootstarp\js\src\modal.js" />
+    <Content Include="bootstarp\js\src\popover.js" />
+    <Content Include="bootstarp\js\src\scrollspy.js" />
+    <Content Include="bootstarp\js\src\tab.js" />
+    <Content Include="bootstarp\js\src\tooltip.js" />
+    <Content Include="bootstarp\js\src\util.js" />
+    <Content Include="bootstarp\js\tests\index.html" />
+    <Content Include="bootstarp\js\tests\karma.conf.js" />
+    <Content Include="bootstarp\js\tests\unit\alert.js" />
+    <Content Include="bootstarp\js\tests\unit\button.js" />
+    <Content Include="bootstarp\js\tests\unit\carousel.js" />
+    <Content Include="bootstarp\js\tests\unit\collapse.js" />
+    <Content Include="bootstarp\js\tests\unit\dropdown.js" />
+    <Content Include="bootstarp\js\tests\unit\modal.js" />
+    <Content Include="bootstarp\js\tests\unit\popover.js" />
+    <Content Include="bootstarp\js\tests\unit\scrollspy.js" />
+    <Content Include="bootstarp\js\tests\unit\tab.js" />
+    <Content Include="bootstarp\js\tests\unit\tooltip.js" />
+    <Content Include="bootstarp\js\tests\unit\util.js" />
+    <Content Include="bootstarp\js\tests\vendor\jquery-1.9.1.min.js" />
+    <Content Include="bootstarp\js\tests\vendor\qunit.css" />
+    <Content Include="bootstarp\js\tests\vendor\qunit.js" />
+    <Content Include="bootstarp\js\tests\visual\alert.html" />
+    <Content Include="bootstarp\js\tests\visual\button.html" />
+    <Content Include="bootstarp\js\tests\visual\carousel.html" />
+    <Content Include="bootstarp\js\tests\visual\collapse.html" />
+    <Content Include="bootstarp\js\tests\visual\dropdown.html" />
+    <Content Include="bootstarp\js\tests\visual\modal.html" />
+    <Content Include="bootstarp\js\tests\visual\popover.html" />
+    <Content Include="bootstarp\js\tests\visual\scrollspy.html" />
+    <Content Include="bootstarp\js\tests\visual\tab.html" />
+    <Content Include="bootstarp\js\tests\visual\tooltip.html" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -179,7 +296,147 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="layout.aspx" />
+    <Content Include="webPlanCycle.aspx" />
+    <Content Include="bootstarp\dist\css\bootstrap-grid.css.map" />
+    <Content Include="bootstarp\dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="bootstarp\dist\css\bootstrap-reboot.css.map" />
+    <Content Include="bootstarp\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="bootstarp\dist\css\bootstrap.css.map" />
+    <Content Include="bootstarp\dist\css\bootstrap.min.css.map" />
+    <Content Include="bootstarp\dist\js\bootstrap.bundle.js.map" />
+    <Content Include="bootstarp\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="bootstarp\dist\js\bootstrap.js.map" />
+    <Content Include="bootstarp\dist\js\bootstrap.min.js.map" />
+    <Content Include="bootstarp\js\dist\alert.js.map" />
+    <Content Include="bootstarp\js\dist\button.js.map" />
+    <Content Include="bootstarp\js\dist\carousel.js.map" />
+    <Content Include="bootstarp\js\dist\collapse.js.map" />
+    <Content Include="bootstarp\js\dist\dropdown.js.map" />
+    <Content Include="bootstarp\js\dist\index.js.map" />
+    <Content Include="bootstarp\js\dist\modal.js.map" />
+    <Content Include="bootstarp\js\dist\popover.js.map" />
+    <Content Include="bootstarp\js\dist\scrollspy.js.map" />
+    <Content Include="bootstarp\js\dist\tab.js.map" />
+    <Content Include="bootstarp\js\dist\tooltip.js.map" />
+    <Content Include="bootstarp\js\dist\util.js.map" />
+    <Content Include="bootstarp\js\tests\README.md" />
+    <Content Include="bootstarp\js\tests\unit\.eslintrc.json" />
+    <Content Include="bootstarp\scss\bootstrap-grid.scss" />
+    <Content Include="bootstarp\scss\bootstrap-reboot.scss" />
+    <Content Include="bootstarp\scss\bootstrap.scss" />
+    <Content Include="bootstarp\scss\mixins\_alert.scss" />
+    <Content Include="bootstarp\scss\mixins\_background-variant.scss" />
+    <Content Include="bootstarp\scss\mixins\_badge.scss" />
+    <Content Include="bootstarp\scss\mixins\_border-radius.scss" />
+    <Content Include="bootstarp\scss\mixins\_box-shadow.scss" />
+    <Content Include="bootstarp\scss\mixins\_breakpoints.scss" />
+    <Content Include="bootstarp\scss\mixins\_buttons.scss" />
+    <Content Include="bootstarp\scss\mixins\_caret.scss" />
+    <Content Include="bootstarp\scss\mixins\_clearfix.scss" />
+    <Content Include="bootstarp\scss\mixins\_float.scss" />
+    <Content Include="bootstarp\scss\mixins\_forms.scss" />
+    <Content Include="bootstarp\scss\mixins\_gradients.scss" />
+    <Content Include="bootstarp\scss\mixins\_grid-framework.scss" />
+    <Content Include="bootstarp\scss\mixins\_grid.scss" />
+    <Content Include="bootstarp\scss\mixins\_hover.scss" />
+    <Content Include="bootstarp\scss\mixins\_image.scss" />
+    <Content Include="bootstarp\scss\mixins\_list-group.scss" />
+    <Content Include="bootstarp\scss\mixins\_lists.scss" />
+    <Content Include="bootstarp\scss\mixins\_nav-divider.scss" />
+    <Content Include="bootstarp\scss\mixins\_navbar-align.scss" />
+    <Content Include="bootstarp\scss\mixins\_pagination.scss" />
+    <Content Include="bootstarp\scss\mixins\_reset-text.scss" />
+    <Content Include="bootstarp\scss\mixins\_resize.scss" />
+    <Content Include="bootstarp\scss\mixins\_screen-reader.scss" />
+    <Content Include="bootstarp\scss\mixins\_size.scss" />
+    <Content Include="bootstarp\scss\mixins\_table-row.scss" />
+    <Content Include="bootstarp\scss\mixins\_text-emphasis.scss" />
+    <Content Include="bootstarp\scss\mixins\_text-hide.scss" />
+    <Content Include="bootstarp\scss\mixins\_text-truncate.scss" />
+    <Content Include="bootstarp\scss\mixins\_transition.scss" />
+    <Content Include="bootstarp\scss\mixins\_visibility.scss" />
+    <Content Include="bootstarp\scss\utilities\_align.scss" />
+    <Content Include="bootstarp\scss\utilities\_background.scss" />
+    <Content Include="bootstarp\scss\utilities\_borders.scss" />
+    <Content Include="bootstarp\scss\utilities\_clearfix.scss" />
+    <Content Include="bootstarp\scss\utilities\_display.scss" />
+    <Content Include="bootstarp\scss\utilities\_embed.scss" />
+    <Content Include="bootstarp\scss\utilities\_flex.scss" />
+    <Content Include="bootstarp\scss\utilities\_float.scss" />
+    <Content Include="bootstarp\scss\utilities\_position.scss" />
+    <Content Include="bootstarp\scss\utilities\_screenreaders.scss" />
+    <Content Include="bootstarp\scss\utilities\_sizing.scss" />
+    <Content Include="bootstarp\scss\utilities\_spacing.scss" />
+    <Content Include="bootstarp\scss\utilities\_text.scss" />
+    <Content Include="bootstarp\scss\utilities\_visibility.scss" />
+    <Content Include="bootstarp\scss\_alert.scss" />
+    <Content Include="bootstarp\scss\_badge.scss" />
+    <Content Include="bootstarp\scss\_breadcrumb.scss" />
+    <Content Include="bootstarp\scss\_button-group.scss" />
+    <Content Include="bootstarp\scss\_buttons.scss" />
+    <Content Include="bootstarp\scss\_card.scss" />
+    <Content Include="bootstarp\scss\_carousel.scss" />
+    <Content Include="bootstarp\scss\_close.scss" />
+    <Content Include="bootstarp\scss\_code.scss" />
+    <Content Include="bootstarp\scss\_custom-forms.scss" />
+    <Content Include="bootstarp\scss\_dropdown.scss" />
+    <Content Include="bootstarp\scss\_forms.scss" />
+    <Content Include="bootstarp\scss\_functions.scss" />
+    <Content Include="bootstarp\scss\_grid.scss" />
+    <Content Include="bootstarp\scss\_images.scss" />
+    <Content Include="bootstarp\scss\_input-group.scss" />
+    <Content Include="bootstarp\scss\_jumbotron.scss" />
+    <Content Include="bootstarp\scss\_list-group.scss" />
+    <Content Include="bootstarp\scss\_media.scss" />
+    <Content Include="bootstarp\scss\_mixins.scss" />
+    <Content Include="bootstarp\scss\_modal.scss" />
+    <Content Include="bootstarp\scss\_nav.scss" />
+    <Content Include="bootstarp\scss\_navbar.scss" />
+    <Content Include="bootstarp\scss\_pagination.scss" />
+    <Content Include="bootstarp\scss\_popover.scss" />
+    <Content Include="bootstarp\scss\_print.scss" />
+    <Content Include="bootstarp\scss\_progress.scss" />
+    <Content Include="bootstarp\scss\_reboot.scss" />
+    <Content Include="bootstarp\scss\_root.scss" />
+    <Content Include="bootstarp\scss\_tables.scss" />
+    <Content Include="bootstarp\scss\_tooltip.scss" />
+    <Content Include="bootstarp\scss\_transitions.scss" />
+    <Content Include="bootstarp\scss\_type.scss" />
+    <Content Include="bootstarp\scss\_utilities.scss" />
+    <Content Include="bootstarp\scss\_variables.scss" />
+    <Content Include="bootstarp\assets\css\docs.min.css.map" />
+    <Content Include="bootstarp\assets\img\favicons\manifest.json" />
+    <Content Include="bootstarp\assets\js\.eslintrc.json" />
+    <Content Include="bootstarp\assets\scss\docs.scss" />
+    <Content Include="bootstarp\assets\scss\_ads.scss" />
+    <Content Include="bootstarp\assets\scss\_algolia.scss" />
+    <Content Include="bootstarp\assets\scss\_anchor.scss" />
+    <Content Include="bootstarp\assets\scss\_brand.scss" />
+    <Content Include="bootstarp\assets\scss\_browser-bugs.scss" />
+    <Content Include="bootstarp\assets\scss\_buttons.scss" />
+    <Content Include="bootstarp\assets\scss\_callouts.scss" />
+    <Content Include="bootstarp\assets\scss\_clipboard-js.scss" />
+    <Content Include="bootstarp\assets\scss\_colors.scss" />
+    <Content Include="bootstarp\assets\scss\_component-examples.scss" />
+    <Content Include="bootstarp\assets\scss\_content.scss" />
+    <Content Include="bootstarp\assets\scss\_examples.scss" />
+    <Content Include="bootstarp\assets\scss\_footer.scss" />
+    <Content Include="bootstarp\assets\scss\_masthead.scss" />
+    <Content Include="bootstarp\assets\scss\_nav.scss" />
+    <Content Include="bootstarp\assets\scss\_sidebar.scss" />
+    <Content Include="bootstarp\assets\scss\_skiplink.scss" />
+    <Content Include="bootstarp\assets\scss\_syntax.scss" />
+    <Content Include="bootstarp\assets\scss\_variables.scss" />
+    <Content Include="webPlanCycleTENCENTFFC.aspx" />
+    <Content Include="webPlanCycleTENCENTFFCbackthree.aspx" />
+    <Content Include="webPlanCycleTENCENTFFCmidthree.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -230,90 +487,105 @@
   <ItemGroup>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.designer.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Confirm.aspx.cs">
       <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Confirm.aspx.designer.cs">
       <DependentUpon>Confirm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Forgot.aspx.cs">
       <DependentUpon>Forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Forgot.aspx.designer.cs">
       <DependentUpon>Forgot.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Lockout.aspx.cs">
       <DependentUpon>Lockout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Lockout.aspx.designer.cs">
       <DependentUpon>Lockout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Manage.aspx.cs">
       <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Manage.aspx.designer.cs">
       <DependentUpon>Manage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ManageLogins.aspx.cs">
       <DependentUpon>ManageLogins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ManageLogins.aspx.designer.cs">
       <DependentUpon>ManageLogins.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ManagePassword.aspx.cs">
       <DependentUpon>ManagePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ManagePassword.aspx.designer.cs">
       <DependentUpon>ManagePassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\OpenAuthProviders.ascx.cs">
       <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\OpenAuthProviders.ascx.designer.cs">
       <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
     </Compile>
     <Compile Include="Account\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\RegisterExternalLogin.aspx.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ResetPassword.aspx.cs">
       <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ResetPassword.aspx.designer.cs">
       <DependentUpon>ResetPassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ResetPasswordConfirmation.aspx.cs">
       <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ResetPasswordConfirmation.aspx.designer.cs">
       <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.cs">
       <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.designer.cs">
       <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\VerifyPhoneNumber.aspx.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
@@ -346,6 +618,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="layout.aspx.cs">
+      <DependentUpon>layout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layout.aspx.designer.cs">
+      <DependentUpon>layout.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -357,6 +636,7 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
@@ -364,9 +644,38 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webPlanCycle.aspx.cs">
+      <DependentUpon>webPlanCycle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webPlanCycle.aspx.designer.cs">
+      <DependentUpon>webPlanCycle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webPlanCycleTENCENTFFC.aspx.cs">
+      <DependentUpon>webPlanCycleTENCENTFFC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webPlanCycleTENCENTFFC.aspx.designer.cs">
+      <DependentUpon>webPlanCycleTENCENTFFC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webPlanCycleTENCENTFFCbackthree.aspx.cs">
+      <DependentUpon>webPlanCycleTENCENTFFCbackthree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webPlanCycleTENCENTFFCbackthree.aspx.designer.cs">
+      <DependentUpon>webPlanCycleTENCENTFFCbackthree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webPlanCycleTENCENTFFCmidthree.aspx.cs">
+      <DependentUpon>webPlanCycleTENCENTFFCmidthree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webPlanCycleTENCENTFFCmidthree.aspx.designer.cs">
+      <DependentUpon>webPlanCycleTENCENTFFCmidthree.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
